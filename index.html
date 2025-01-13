@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Jay Maharshi Patel</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="Media/profile.jpg" alt="Your Photo" class="profile-pic">
+            <p>Hello! I am Jay Patel, a passionate computer engineer. I specialize in Machine Learning and AI and have 3 years of experience in the industry.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Software Development</li>
+                <li>Web Development</li>
+                <li>Machine Learning & AI</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-items">
+                <div class="project-item">
+                    <h3>Sentiment Analysis Tool</h3>
+                    <img src="Media/Sentiment_tool.svg" alt="Project 1">
+                    <p>A system that analyzes customer reviews and determines their sentiment (positive, negative, neutral).</p>
+                    <p>Technologies: NLP, Python, Scikit-learn.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Chatbot</h3>
+                    <img src="Media/ChatBot.webp" alt="Project 2">
+                    <p>An intelligent bot that can handle FAQs for a business or organization.</p>
+                    <p>Technologies: Dialogflow, Python, Flask.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="Media/Internship_resume.pdf" class="btn" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:my-email@example.com">jaybropatel@gmail.com</a></p>
+            <p>Phone: +91 73590 99913</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>This is a sample portfolio, all details here are not correct.</p>
+            <p>&copy; 2025 Jay Maharshi Patel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
